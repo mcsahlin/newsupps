@@ -1,19 +1,10 @@
-/*
- * Project: ElectronVue
- * File Created: Monday, 1st July 2019 11:01:07 am
- * Author: break (
- * -----
- * Last Modified: Monday, 1st July 2019 11:01:08 am
- * Modified By: break (
- * -----
-*/
 export function classify(element: string | object, page: boolean = false) {
 	if (page) {
 		return `classes.pages.${element}`;
 	} else {
 		return `classes.elements.${element}`;
 	}
-} 
+}
 
 export const classes = {
 	pages: {
