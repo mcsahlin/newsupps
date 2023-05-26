@@ -1,0 +1,40 @@
+// - colors
+$clrDark: #333;
+$clrLight: #fff;
+$clrAccent: rgb(141, 228, 19);
+$bgClr: $clrDark;
+$fontClr: $clrLight;
+$btnBgClr: $clrAccent;
+$btnClr: $clrDark;
+$accent: darken($clrAccent, 10%);
+//==================================================
+// - fonts -> f_
+$fontFamily: 'Roboto', sans-serif;
+$fontSize: 20px;
+//==================================================
+// - heights -> h_
+$h_header: 50px;
+$h_footer: 50px;
+$h_page: 100vh;
+$h_nav: 50px;
+$h_btn: 15px;
+//==================================================
+// - widths -> w_
+$w_header: 100vw;
+$w_footer: 100vw;
+$w_page: 100vw;
+$w_nav: 100vw;
+$w_btn: 25px;
+
+//==================================================
+// - margins -> m_
+$margin: 10px;
+$marginBtn: 5px;
+//==================================================
+// - paddings -> p_
+$padding: 10px;
+$paddingBtn: 5px;
+//==================================================
+// - borders -> b_
+$border: 1px solid $clrAccent;
+$borderRadius: 5px;

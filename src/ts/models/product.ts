@@ -1,4 +1,3 @@
-import { createHtml } from '../helpers';
 export class Product {
 	id: string;
 	price: string;
@@ -55,7 +54,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'6e3775f4-60b3-c708-09e9-2b8943d47587',
-			'BioTechUSA Tribooster, 60 caps',
+			'BioTechUSA Tribooster',
 			'229',
 			pillOptions,
 			lorem,
@@ -66,7 +65,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'823730ca-dd32-7a6d-37eb-e013e7d961ae',
-			'Sportlab Limitless, 60 caps',
+			'Sportlab Limitless',
 			'399',
 			pillOptions,
 			lorem,
@@ -77,7 +76,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'9bbac052-b260-d097-033a-ee05a5095930',
-			'Sportlab Focus, NOO-PEPT, 90 caps',
+			'Sportlab Focus, NOO-PEPT',
 			'249',
 			pillOptions,
 			lorem,
@@ -88,7 +87,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'872ac8ba-3950-39e6-a87f-abb4b32a547e',
-			'Sportlab Androgenic Testo Growth, 120 caps',
+			'Testo Growth',
 			'349',
 			powderOptions,
 			lorem,
@@ -100,7 +99,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'7114bd91-dd97-fffc-21de-7d6ea91f1e29',
-			'SOLID Nutrition Collagen, 230 g',
+			'SOLID Nutrition Collagen',
 			'149',
 			pillOptions,
 			lorem,
@@ -111,7 +110,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'b3082711-aea3-5e29-9604-180b2534cd24',
-			'Chaos Crew Turkesterone HIGH DOSE - 500 mg, 90 caps',
+			'Chaos Crew Turkesterone',
 			'599',
 			powderOptions,
 			lorem,
@@ -122,7 +121,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'2f95e709-1f2c-0ec4-3011-784828b2055a',
-			'SOLID Nutrition BLACK LINE Turkesterone - 333 mg, 90 caps',
+			'BLACK LINE Turkesterone',
 			'549',
 			powderOptions,
 			lorem,
@@ -133,7 +132,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'4bc59c15-742a-7414-e26f-1308b0952f5d',
-			'Optimum Nutrition Opti-Women, 60 caps',
+			'Opti-Women',
 			'189',
 			pillOptions,
 			lorem,
@@ -144,7 +143,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'6db9b2da-64eb-48db-caf7-a2ebc33f04b2',
-			'Swedish Supplements Vitamin & Mineral Complex',
+			'Vitamin & Mineral Complex',
 			'299',
 			pillOptions,
 			lorem,
@@ -155,7 +154,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'56606634-b18a-0dfc-e1f8-2029a70c9ed4',
-			'Star Nutrition Ultimate Omega-3, 90 caps, 80%',
+			'Ultimate Omega-3',
 			'229',
 			pillOptions,
 			lorem,
@@ -166,7 +165,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'7c8b2ddf-3ed3-17e9-d4c1-00ba75cb83f2',
-			'Scitec Nutrition Omega 3, 100 caps',
+			'Scitec Nutrition Omega 3',
 			'139',
 			pillOptions,
 			lorem,
@@ -178,7 +177,7 @@ export function addSamplePack(): Product[] {
 	inventory.push(
 		new Product(
 			'c2213b55-516b-0702-87ba-657294783b58',
-			'BioTechUSA Tribooster, 60 caps',
+			'BioTechUSA Tribooster',
 			'229',
 			pillOptions,
 			lorem,

@@ -1,0 +1,22 @@
+@use 'mixins' as m;
+@use 'variables' as v;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+}
+
+html {
+	font-size: v.$fontSize;
+	font-family: v.$fontFamily;
+	color: v.$fontClr;
+	background-color: v.$bgClr;
+}
